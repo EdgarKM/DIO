@@ -1,0 +1,18 @@
+body{
+    background-color:slategray;
+}
+#title, .subtitle, .post_title {
+color:skyblue;
+}
+
+.post_title {
+    font-size: 16px;
+    font-family: italic;
+}
+
+.post {
+        background-color:aliceblue;
+        padding: 10px;
+        border: 3px solid black;
+        margin 10px;
+}
