@@ -1,18 +1,71 @@
 body{
-    background-color:slategray;
-}
-#title, .subtitle, .post_title {
-color:skyblue;
+    background-color:#262f5c;
+    font-family: 'Poppins', sans-serif;
+    max-width:900px;
+    margin:auto;
 }
 
+.its_me {
+    
+    border: 15px solid white;
+    border-radius: 100px;
+}
+
+#title, .subtitle, .post_title {
+color:floralwhite;
+}
+
+
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a{
+    color:indianred;
+}
+
+
+
 .post_title {
+    color:black;
     font-size: 16px;
     font-family: italic;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .post {
         background-color:aliceblue;
-        padding: 10px;
+        padding: 15px;
         border: 3px solid black;
-        margin 10px;
+        margin-bottom: 15px;
+        border-radius:5px;
+}
+
+.post_content{
+    margin:0;
+    margin-bottom:15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.post_image{
+    margin-bottom:15;
+    border-radius: 3px;
+    width:100%;
+}
+
+.contact_list{
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contact_list li a {
+    text-decoration: none;
+}
+
+.contact_list li a img {
+    max-height: 25px;
+    margin-right: 10px;
 }
