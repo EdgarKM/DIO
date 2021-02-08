@@ -21,9 +21,21 @@
             }
         </style>
         <script>
-            window.alert ("Minha primeira página!");//manda alerta na página
-            window.confirm("Está gostando de JS?");//manda confirmação com ok ou cancel
+            var n1 = Number(window.prompt ('Dígite um número'));//convert em int
+            var n2 = Number(window.prompt ('Dígite outro número'));
+            var s = n1 + n2 ;
+            window.alert (`A soma entre ${n1} e ${n2} é igual a ${s}!`);
+
+            /*var nome = window.prompt ("Qual seu nome?"); //pergunta usuário e transforma em string
+            String(n) //converte em string
+            n.toString()//converte em String
+            Number(n) //o js decide o que é o número
+            Number.parseInt(n) //converte em int
+            Number.parseFloat(n) //converte em float
+            window.alert ("Muito Prazer, " + nome + "!")
             window.prompt("Qual seu nome?");//pergunta algo para o usuário
+            window.confirm("Está gostando de JS?"); //manda confirmação com ok ou cancel
+            */
         </script>
     </body>
 </html>
